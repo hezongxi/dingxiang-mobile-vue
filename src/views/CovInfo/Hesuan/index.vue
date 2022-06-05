@@ -1,6 +1,5 @@
 <!--  -->
 <template>
-  <img src="@/assets/images/hesuan.jpg" alt="">
 </template>
 
 <script>

@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home'
-import Hesuan from '@/views/Hesuan'
+import Hesuan from '@/views/CovInfo/Hesuan'
 import Area from '@/views/Area'
 import Wuzi from '@/views/Wuzi'
+import Citys from '@/views/Citys/Citys.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,7 +25,14 @@ const routes = [
   {
     path: '/wuzi',
     component: Wuzi
+  },
+  {
+    path: '/citys/:name',
+    component: Citys,
+    props:true,
   }
+
+
 
 ]
 

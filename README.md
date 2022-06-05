@@ -1,4 +1,4 @@
-# dingxiangyuan
+# 天行疫情大数据管理移动端
 
 ## Project setup
 ```

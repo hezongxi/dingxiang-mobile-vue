@@ -7,11 +7,9 @@
           <CovInfo :news='news'/>
       </div> 
       <div class="list">
-          <div>
-          <router-link to='/hesuan'>
+          <div @click="click">
             <img src="@/assets/images/2.png" alt="">
             <div>核酸检测</div>
-          </router-link>
           </div>
           <div>
               <router-link to="/wuzi">
@@ -34,6 +32,8 @@
 
           <CovNumber :covData="covData"/>
           <ChinaMap/>
+          <WorldMap/>
+          <VueSwiper/>
         </div>
   </div>
   
@@ -44,11 +44,20 @@ import CovInfo from './CovInfo/CovInfo.vue';
 import api from "../api/index"
 import CovNumber from "./CovInfo/CovNumber.vue"
 import ChinaMap from '@/views/VueEharts/ChinaMap.vue'
+import WorldMap from '@/views/VueEharts/WorldMap.vue'
+import VueSwiper from '@/views/VueSwiper/VueSwiper.vue';
 export default {
+    methods:{
+      click(){
+        window.open('https://xinguan.nccl.org.cn/','_self')
+      }
+  },
     components: {
     CovInfo,
     CovNumber,
-    ChinaMap
+    ChinaMap,
+    WorldMap,
+    VueSwiper,
 },
   data () {
     return {

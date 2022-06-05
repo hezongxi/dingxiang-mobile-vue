@@ -1,7 +1,7 @@
 <!--  -->
 <template>
 <div class="title">
-    <img src="@/assets/images/wuzi.png" alt="">
+    <img src="@/assets/images/wuzi.jpg" alt="">
     <div class="container">
         <div class="tab">
             <van-tabs v-model="active" animated>
@@ -37,7 +37,7 @@ export default {
 </script>
 <style lang='less' scoped>
 .title{
-    background: #3343ff;
+    background: rgb(0,255,255);
     img{
         width: 100%;
     }

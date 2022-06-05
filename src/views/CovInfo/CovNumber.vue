@@ -70,6 +70,7 @@ export default {
 <style lang='less' scoped>
 
 .container{
+    margin-bottom:0.3rem ;
     padding-top: 0.3rem;
     background-color: #f5f5f5;
     .content{
@@ -77,7 +78,7 @@ export default {
         div{
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 
-            font-size: .12rem;
+            font-size: .3rem;
             color: #666;
         }
         .wrap{
@@ -95,11 +96,11 @@ export default {
                     color: #333;
                 }
             span{
-                font-size: 10px;
+                font-size: 0.233rem;
             }
             .bold{
                 font-weight: bold;
-                font-size: 0.33rem;
+                font-size: 0.4rem;
             }
             
              }

@@ -14,6 +14,9 @@ const api ={
     getCovInfo(){
         return axios.get(base.host+base.covInfo)
     },
+    getChinaData(){
+        return axios.get(base.baseUrl+base.chinaData)
+    },
 }
 
 export default api
